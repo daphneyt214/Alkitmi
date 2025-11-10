@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgdstffxatluj"]
+
+[ext_resource type="Script" uid="uid://cu8rniqsqfsx8" path="res://button.gd" id="1_avgtj"]
+
+[node name="UI Controls" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.16100001
+anchor_bottom = 0.18400002
+offset_right = -1.5258789e-05
+offset_bottom = -0.2000122
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("1_avgtj")

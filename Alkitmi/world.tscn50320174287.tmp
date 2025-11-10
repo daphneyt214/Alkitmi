@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0mi1j47vsnud"]
+
+[ext_resource type="Script" uid="uid://b8titi6tg4ld6" path="res://world.gd" id="1_fj7yv"]
+[ext_resource type="Texture2D" uid="uid://c3onl868pyby1" path="res://potionshop_v4.png" id="2_fj7yv"]
+[ext_resource type="Script" uid="uid://c6ctmsduwybny" path="res://move_window.gd" id="3_tlwt5"]
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_fj7yv")
+
+[node name="PotionshopV4" type="Sprite2D" parent="."]
+position = Vector2(499, 414)
+scale = Vector2(0.751, 0.75)
+texture = ExtResource("2_fj7yv")
+
+[node name="MoveWindow" type="Button" parent="."]
+offset_right = 84.0
+offset_bottom = 84.0
+script = ExtResource("3_tlwt5")
