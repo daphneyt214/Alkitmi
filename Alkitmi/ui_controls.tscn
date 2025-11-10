@@ -4,19 +4,14 @@
 
 [node name="UI Controls" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 0.085
+anchor_bottom = 0.106000006
+offset_bottom = 0.19999695
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 0.16100001
-anchor_bottom = 0.18400002
-offset_right = -1.5258789e-05
-offset_bottom = -0.2000122
-mouse_filter = 1
-keep_pressed_outside = true
+layout_mode = 0
+offset_right = 132.0
+offset_bottom = 122.0
 script = ExtResource("1_avgtj")
