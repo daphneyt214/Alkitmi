@@ -10,9 +10,10 @@ position = Vector2(505, 448)
 texture = ExtResource("2_fj7yv")
 
 [node name="UI Controls" parent="." instance=ExtResource("3_tlwt5")]
+anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 66.0
-offset_top = 87.0
-offset_right = 66.0
-offset_bottom = 87.20001
+offset_left = 139.0
+offset_top = 202.0
+offset_right = 139.0
+offset_bottom = 202.20001

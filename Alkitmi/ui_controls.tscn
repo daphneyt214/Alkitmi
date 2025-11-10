@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bgdstffxatluj"]
+[gd_scene load_steps=3 format=3 uid="uid://bgdstffxatluj"]
 
 [ext_resource type="Script" uid="uid://cu8rniqsqfsx8" path="res://button.gd" id="1_avgtj"]
+[ext_resource type="Texture2D" uid="uid://dsy4v5pao6v3r" path="res://drag.png" id="1_mihjp"]
 
 [node name="UI Controls" type="Control"]
 layout_mode = 3
@@ -14,4 +15,6 @@ grow_vertical = 2
 layout_mode = 0
 offset_right = 132.0
 offset_bottom = 122.0
+icon = ExtResource("1_mihjp")
+flat = true
 script = ExtResource("1_avgtj")
